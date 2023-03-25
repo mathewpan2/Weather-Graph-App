@@ -7,13 +7,14 @@ function App() {
     const [weatherData, setWeatherData] = useState([{}])
     const [location, setLocation] = useState("")
     const [functionCalled, setFunctionCalled] = useState(false)
-
+    const [city, setCity] = useState("")
  
   
     const getWeather = (event) => {
         if(event.key === "Enter") {
             console.log(process.env)
             const[city, state] = event.target.value.split(", ");
+            setCity(city)
             fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city},${state}&limit=1&appid=${apikey}`)
             .then(response => response.json()
             ).then(
@@ -44,7 +45,7 @@ function App() {
         onKeyPress={getWeather}
         />
 
-      {functionCalled && <WeatherChart weatherData={weatherData} />}
+      {functionCalled && <WeatherChart weatherData={weatherData} cityName = {city} />}
     </div>
     
     )

@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+ 
 }
 
 .input-field {
@@ -17,4 +18,8 @@
 
 .input-field:focus{
     outline: none;
+}
+
+body {
+    background-color: aliceblue;
 }

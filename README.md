@@ -3,15 +3,15 @@
 This is a simple web application that displays the weather forecast for a given location. It is built with React and uses the OpenWeatherMap API to fetch weather data.
 Getting Started
 
-## To run the app on your local machine, follow these steps:
+## To run the app on your local machine, follow these steps
 
-    Clone this repository to your computer.
-    Install the dependencies by running npm install in the project directory.
-    Create a file named .env in the project directory and add your OpenWeatherMap API key as follows: "REACT_APP_API_KEY=your_api_key_here"
+Clone this repository to your computer.
+Install the dependencies by running npm install in the project directory.
+Create a file named .env in the project directory and add your OpenWeatherMap API key as follows: "REACT_APP_API_KEY=your_api_key_here"
 
 
-    Run npm start to start the development server.
-    Open your browser and go to http://localhost:3000 to view the app.
+Run npm start to start the development server.
+Open your browser and go to http://localhost:3000 to view the app.
 
 ## How to Use
 

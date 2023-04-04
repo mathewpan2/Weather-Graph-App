@@ -16,5 +16,5 @@ Open your browser and go to http://localhost:3000 to view the app.
 ## How to Use
 
 To use the app, simply type the name of a city and state in the search box and press Enter. The app will display a line chart showing the temperature forecast for the next five days, along with a brief description of the weather conditions.
-Contributing
+
 

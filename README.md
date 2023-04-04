@@ -6,7 +6,7 @@ Getting Started
 ## To run the app on your local machine, follow these steps
 
 1. Clone this repository to your computer.
-2. Install the dependencies by running npm install in the project directory.
+2. Install the dependencies by running npm install and npm install chart.js in the project directory.
 3. Create a file named .env in the project directory and add your OpenWeatherMap API key as follows: "REACT_APP_API_KEY=your_api_key_here"
 
 
